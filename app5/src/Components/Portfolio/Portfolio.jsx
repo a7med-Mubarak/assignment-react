@@ -70,31 +70,31 @@ export default function Portfolio(){
 
 
 
-let allImages = Array.from(document.querySelectorAll("img")) ;
-let popup = document.querySelector(".popUp") ;
-let child = document.querySelector(".child");
+// let allImages = Array.from(document.querySelectorAll("img")) ;
+// let popup = document.querySelector(".popUp") ;
+// let child = document.querySelector(".child");
 
-for (let i = 0; i < allImages.length; i++) {
+// for (let i = 0; i < allImages.length; i++) {
 
-    allImages[i].addEventListener("click" , function(eInfo){
-
-
-
-        popup.classList.replace("d-none" , "d-flex");
+//     allImages[i].addEventListener("click" , function(eInfo){
 
 
-        child.style.backgroundImage = `url(${eInfo.target.src})`;
+
+//         popup.classList.replace("d-none" , "d-flex");
 
 
-    })
+//         child.style.backgroundImage = `url(${eInfo.target.src})`;
+
+
+//     })
     
-}
+// }
 
-popup.addEventListener("click", function(eInfo){
+// popup.addEventListener("click", function(eInfo){
     
-    popup.classList.replace("d-flex" , "d-none");
+//     popup.classList.replace("d-flex" , "d-none");
 
-})
+// })
 
 
 
